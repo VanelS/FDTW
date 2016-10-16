@@ -680,17 +680,17 @@ f              <- function(training_set, test_set, code_distance, nom_dataset, b
 
 
 
-  print("réslutats de l'heuristique  du max")
+  print("rÃ©slutats de l'heuristique  du max")
 
   mat_result  <- matrix(unlist(result), ncol = 2, byrow = TRUE)
   
 
   m <- maximun(mat_result)
 
-  r <- test_w(training_set, test_set, m$w_max, 1, 2, nom_dataset="")
+  #r <- test_w(training_set, test_set, m$w_max, 1, 2, nom_dataset="")
 
-  print(paste("Accuracy maximale pour le jeux de données ", nom_dataset, "est : ", r$acc, "le nombre de segments est : ", m$w_max))
-  print(paste( nom_dataset," Nombre de test dans la pire des cas: ", n))
+  #print(paste("Accuracy maximale pour le jeux de donnÃ©es ", nom_dataset, "est : ", r$acc, "le nombre de segments est : ", m$w_max))
+  #print(paste( nom_dataset," Nombre de test dans la pire des cas: ", n))
   #return(m)
 
 }
