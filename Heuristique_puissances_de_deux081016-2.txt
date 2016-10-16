@@ -1,0 +1,984 @@
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "yoga"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]        [,3]
+[1,]    2 0.1777778 0.007261829
+[2,]    4 0.9333333 0.007834113
+[3,]    8 0.9333333 0.008717541
+[4,]   16 0.9333333 0.008206371
+[5,]   32 0.9333333 0.009500955
+[6,]   64 0.9333333 0.009512063
+[7,]  128 0.9333333 0.009689862
+[8,]  256 0.9333333 0.009989895
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 4
+
+$acc_max
+[1] 0.9333333
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  0.556105601787567"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "BeetleFly"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]       [,2]       [,3]
+ [1,]    2 0.05555556 0.01849074
+ [2,]    4 0.51587302 0.01956862
+ [3,]    8 0.41269841 0.01896301
+ [4,]   16 0.26984127 0.01928526
+ [5,]   32 0.55555556 0.01874632
+ [6,]   64 0.60317460 0.01116223
+ [7,]  128 0.65873016 0.02030758
+ [8,]  256 0.70634921 0.02182440
+ [9,]  512 0.70634921 0.02471358
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 256
+
+$acc_max
+[1] 0.7063492
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  0.318981901804606"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "yoga"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]       [,3]
+ [1,]    2 0.4126984 0.01887411
+ [2,]    4 0.3174603 0.02054651
+ [3,]    8 0.4047619 0.01876854
+ [4,]   16 0.5714286 0.01962974
+ [5,]   32 0.5714286 0.01957418
+ [6,]   64 0.5158730 0.01129001
+ [7,]  128 0.5714286 0.02142437
+ [8,]  256 0.5714286 0.02312453
+ [9,]  512 0.5714286 0.02562479
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 16
+
+$acc_max
+[1] 0.5714286
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  0.304847149054209"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "ShapeletSim"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]       [,2]       [,3]
+[1,]    2 0.05555556 0.01729061
+[2,]    4 0.15873016 0.01723506
+[3,]    8 0.20634921 0.01822405
+[4,]   16 0.30158730 0.01750730
+[5,]   32 0.61111111 0.01751842
+[6,]   64 0.75396825 0.01838517
+[7,]  128 0.35714286 0.01847963
+[8,]  256 0.37301587 0.01957974
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 64
+
+$acc_max
+[1] 0.7539683
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  8"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  0.604743802547455"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "ToeSegmentation1_TEST"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]       [,3]
+[1,]    2 0.5000000 0.03876499
+[2,]    4 0.3498168 0.03716483
+[3,]    8 0.5989011 0.03789823
+[4,]   16 0.6483516 0.03755931
+[5,]   32 0.6739927 0.03973731
+[6,]   64 0.6245421 0.04045404
+[7,]  128 0.6245421 0.04230423
+[8,]  256 0.6227106 0.04713249
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 32
+
+$acc_max
+[1] 0.6739927
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  8"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  0.83316665093104"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Wine"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]       [,3]
+[1,]    2 0.2105263 0.05797803
+[2,]    4 0.2631579 0.05811692
+[3,]    8 0.3157895 0.05876143
+[4,]   16 0.3157895 0.05883921
+[5,]   32 0.3508772 0.06058383
+[6,]   64 0.3157895 0.06253959
+[7,]  128 0.3684211 0.06593438
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 128
+
+$acc_max
+[1] 0.3684211
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  7"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  0.542187547683716"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Meat"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1] [,2]      [,3]
+[1,]    2    0 0.1253014
+[2,]    4    0 0.1260570
+[3,]    8    0 0.1285740
+[4,]   16    0 0.1263182
+[5,]   32    0 0.1285517
+[6,]   64    0 0.1322077
+[7,]  128    0 0.1358636
+[8,]  256    0 0.1459035
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 2
+
+$acc_max
+[1] 0
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  8"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  0.919075234731038"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Car"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]       [,3]
+ [1,]    2 0.4333333 0.15764354
+ [2,]    4 0.6166667 0.16750008
+ [3,]    8 0.7666667 0.15787134
+ [4,]   16 0.7000000 0.15842696
+ [5,]   32 0.6333333 0.16449423
+ [6,]   64 0.6000000 0.09180362
+ [7,]  128 0.6333333 0.16910579
+ [8,]  256 0.6500000 0.18248492
+ [9,]  512 0.6166667 0.21043215
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 8
+
+$acc_max
+[1] 0.7666667
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  1.32879953384399"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Herring_TEST"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]       [,3]
+ [1,]    2 0.5014430 0.15889922
+ [2,]    4 0.4516595 0.16128835
+ [3,]    8 0.4350649 0.15842139
+ [4,]   16 0.4992785 0.16189952
+ [5,]   32 0.5165945 0.16250514
+ [6,]   64 0.5331890 0.09366492
+ [7,]  128 0.4834055 0.17387849
+ [8,]  256 0.4812410 0.18640198
+ [9,]  512 0.4978355 0.21869964
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 64
+
+$acc_max
+[1] 0.533189
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  1.3514684677124"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Worms"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]       [,2]      [,3]
+ [1,]    2 0.13076923 0.4010068
+ [2,]    4 0.16974359 0.4149804
+ [3,]    8 0.13128205 0.4077241
+ [4,]   16 0.06615385 0.4175195
+ [5,]   32 0.11846154 0.4091020
+ [6,]   64 0.10461538 0.2328677
+ [7,]  128 0.16974359 0.4285929
+ [8,]  256 0.23435897 0.4471947
+ [9,]  512 0.15641026 0.4874210
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 256
+
+$acc_max
+[1] 0.234359
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  4.85551883379618"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "WormsTwoClass"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]      [,3]
+ [1,]    2 0.3005128 0.4225645
+ [2,]    4 0.2871795 0.4193586
+ [3,]    8 0.2610256 0.4282206
+ [4,]   16 0.2482051 0.4205698
+ [5,]   32 0.2758974 0.4262926
+ [6,]   64 0.2353846 0.2403407
+ [7,]  128 0.3005128 0.4398495
+ [8,]  256 0.3646154 0.4644909
+ [9,]  512 0.2733333 0.5106288
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 256
+
+$acc_max
+[1] 0.3646154
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  4.91707499821981"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Plane_TEST"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.2666667 0.1310187
+[2,]    4 0.8571429 0.1317076
+[3,]    8 0.9619048 0.1337912
+[4,]   16 0.9619048 0.1353913
+[5,]   32 1.0000000 0.1389528
+[6,]   64 1.0000000 0.1462369
+[7,]  128 1.0000000 0.1594382
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 32
+
+$acc_max
+[1] 1
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  7"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  1.04495449860891"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Ham_TEST"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.3040541 0.4120245
+[2,]    4 0.3050551 0.4114967
+[3,]    8 0.3866366 0.4195808
+[4,]   16 0.4149149 0.4279872
+[5,]   32 0.4879880 0.4160638
+[6,]   64 0.4424424 0.4195031
+[7,]  128 0.4056557 0.4431721
+[8,]  256 0.3681181 0.4839484
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 32
+
+$acc_max
+[1] 0.487988
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  8"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  2.59972661733627"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Earthquakes"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]      [,3]
+ [1,]    2 0.6123959 0.7690658
+ [2,]    4 0.6045328 0.7862453
+ [3,]    8 0.6264261 0.8041137
+ [4,]   16 0.6837805 0.7923070
+ [5,]   32 0.7053654 0.8208154
+ [6,]   64 0.7337342 0.4497616
+ [7,]  128 0.7123034 0.8326499
+ [8,]  256 0.7195498 0.8951840
+ [9,]  512 0.7340426 1.0700348
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 512
+
+$acc_max
+[1] 0.7340426
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  11.2715436975161"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "DistalPhalanxOutlineAgeGroup"
+
+
+[1] "Liste des candidats"
+[1]  2  4  8 16 32 64
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.3231576 0.1404252
+[2,]    4 0.4159729 0.1416142
+[3,]    8 0.4088807 0.1429087
+[4,]   16 0.4591428 0.1475981
+[5,]   32 0.3657108 0.1533153
+[6,]   64 0.3654024 0.1651110
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 16
+
+$acc_max
+[1] 0.4591428
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  6"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  1.93529351949692"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "DistalPhalanxTW"
+
+
+[1] "Liste des candidats"
+[1]  2  4  8 16 32 64
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.6040703 0.1345357
+[2,]    4 0.5604379 0.1374248
+[3,]    8 0.5820228 0.1380527
+[4,]   16 0.6612704 0.1411197
+[5,]   32 0.6612704 0.1480426
+[6,]   64 0.6322849 0.1603605
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 16
+
+$acc_max
+[1] 0.6612704
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  6"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  1.91205785274506"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "MiddlePhalanxTW"
+
+
+[1] "Liste des candidats"
+[1]  2  4  8 16 32 64
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.4871795 0.1657888
+[2,]    4 0.4737305 0.1670111
+[3,]    8 0.5255153 0.1705393
+[4,]   16 0.5057818 0.1750508
+[5,]   32 0.5579437 0.1825016
+[6,]   64 0.5124434 0.1971808
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 32
+
+$acc_max
+[1] 0.5579437
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  6"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  2.24979163408279"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "MiddlePhalanxOutlineAgeGroup"
+
+
+[1] "Liste des candidats"
+[1]  2  4  8 16 32 64
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.4807692 0.1612550
+[2,]    4 0.4347662 0.1629441
+[3,]    8 0.4351433 0.1645776
+[4,]   16 0.4092509 0.1693558
+[5,]   32 0.4224485 0.1776455
+[6,]   64 0.4028406 0.1922359
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 2
+
+$acc_max
+[1] 0.4807692
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  6"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  2.05208851496379"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "ProximalPhalanxTW"
+
+
+[1] "Liste des candidats"
+[1]  2  4  8 16 32 64
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.6098323 0.2922181
+[2,]    4 0.7172492 0.2940350
+[3,]    8 0.6782467 0.2991077
+[4,]   16 0.6684427 0.3061862
+[5,]   32 0.6490480 0.3209876
+[6,]   64 0.6441461 0.3468402
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 4
+
+$acc_max
+[1] 0.7172492
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  6"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  2.95319528182348"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "InsectWingbeatSound"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.2589782 1.0403096
+[2,]    4 0.2999506 0.9945105
+[3,]    8 0.3453659 1.0375037
+[4,]   16 0.2135629 1.0482493
+[5,]   32 0.2818709 1.0770299
+[6,]   64 0.2499691 1.0649565
+[7,]  128 0.3182772 1.1593104
+[8,]  256 0.3047020 1.2899568
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 8
+
+$acc_max
+[1] 0.3453659
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  8"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  27.5489046136538"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Computers"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]     [,3]
+ [1,]    2 0.4203002 3.302547
+ [2,]    4 0.4040448 3.490994
+ [3,]    8 0.3602983 3.424826
+ [4,]   16 0.3681870 3.444483
+ [5,]   32 0.4002199 3.630269
+ [6,]   64 0.4122203 1.881683
+ [7,]  128 0.4843182 3.657127
+ [8,]  256 0.3722987 3.899590
+ [9,]  512 0.4202524 4.448111
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 128
+
+$acc_max
+[1] 0.4843182
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  25.4702634334564"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "DistalPhalanxOutlineCorrect"
+
+
+[1] "Liste des candidats"
+[1]  2  4  8 16 32 64
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]      [,3]
+[1,]    2 0.5797101 0.4762698
+[2,]    4 0.5760870 0.4874098
+[3,]    8 0.5652174 0.4868153
+[4,]   16 0.5833333 0.5025614
+[5,]   32 0.5905797 0.5296141
+[6,]   64 0.6086957 0.5703292
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 64
+
+$acc_max
+[1] 0.6086957
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  6"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  6.00713400046031"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Strawberry"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+     [,1]      [,2]     [,3]
+[1,]    2 0.6325291 2.311531
+[2,]    4 0.6489422 2.320849
+[3,]    8 0.7676589 2.347974
+[4,]   16 0.8110193 2.362442
+[5,]   32 0.8380103 2.405168
+[6,]   64 0.8352566 2.491171
+[7,]  128 0.8083749 2.652904
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 32
+
+$acc_max
+[1] 0.8380103
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  7"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  18.8876552343369"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "LargeKitchenAppliances"
+
+
+[1] "Liste des candidats"
+[1]   2   4   8  16  32  64 128 256 512
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1] [,2]     [,3]
+ [1,]    2    0 7.397290
+ [2,]    4    0 7.448406
+ [3,]    8    0 7.367503
+ [4,]   16    0 7.522030
+ [5,]   32    0 7.426937
+ [6,]   64    0 4.203054
+ [7,]  128    0 7.847235
+ [8,]  256    0 8.199270
+ [9,]  512    0 9.260087
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 2
+
+$acc_max
+[1] 0
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  9"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  52.9951823155085"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "CinC_ECG_torso"
+
+
+[1] "Liste des candidats"
+ [1]    2    4    8   16   32   64  128  256  512 1024
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]      [,3]
+ [1,]    2 0.2234432 0.1936971
+ [2,]    4 0.4249084 0.1061717
+ [3,]    8 0.4743590 0.1927026
+ [4,]   16 0.4487179 0.1957362
+ [5,]   32 0.4468864 0.1972086
+ [6,]   64 0.4010989 0.1955973
+ [7,]  128 0.5970696 0.2002978
+ [8,]  256 0.5970696 0.2025591
+ [9,]  512 0.5970696 0.2168495
+[10,] 1024 0.6721612 0.1675945
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 1024
+
+$acc_max
+[1] 0.6721612
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  10"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  27.6686165809631"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "MALLAT"
+
+
+[1] "Liste des candidats"
+ [1]    2    4    8   16   32   64  128  256  512 1024
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]      [,2]      [,3]
+ [1,]    2 0.5282651 0.2283895
+ [2,]    4 0.6929825 0.1277683
+ [3,]    8 0.7836257 0.2281561
+ [4,]   16 0.8576998 0.2313342
+ [5,]   32 0.9463938 0.2311398
+ [6,]   64 0.9629630 0.2344234
+ [7,]  128 0.9444444 0.2375849
+ [8,]  256 0.9444444 0.2460302
+ [9,]  512 0.9629630 0.2696047
+[10,] 1024 0.9629630 0.2461913
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 64
+
+$acc_max
+[1] 0.962963
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  10"
+
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  26.0462710340818"
+
+
+
+
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "------------------------------"
+[1] "Phoneme"
+
+
+[1] "Liste des candidats"
+ [1]    2    4    8   16   32   64  128  256  512 1024
+
+
+[1] "Accuracy pour chaque candidat sur le training set"
+      [,1]        [,2]     [,3]
+ [1,]    2 0.000000000 3.345268
+ [2,]    4 0.000000000 1.949217
+ [3,]    8 0.000000000 3.424292
+ [4,]   16 0.000000000 3.443039
+ [5,]   32 0.000000000 3.483020
+ [6,]   64 0.009389671 3.520719
+ [7,]  128 0.000000000 3.603849
+ [8,]  256 0.009389671 3.666433
+ [9,]  512 0.000000000 4.054216
+[10,] 1024 0.000000000 3.690369
+
+
+[1] "Le accuracy maximale"
+$w_max
+[1] 64
+
+$acc_max
+[1] 0.009389671
+
+[1] "Iteration Num  1  Nombre de tests avant la recherche du maximun est :  10"
+
+[1] "Le temps (minutes) d'execution de l'heuristique est :  99.6499660174052"
