@@ -644,7 +644,7 @@ H               <- function(training_set, test_set, code_distance, nom_dataset, 
   
   print(paste("Iteration Num ", nb_iter," Nombre de tests avant la recherche du maximun est : ", nbTests))
 #-
-  print("Candidat pour être maximun local")
+  print("Candidat pour Ãªtre maximun local")
   print(paste("W_candidat = ", max$w_max, " maximun_candidat = ", max$acc_max))
   max_local     <- maximunLocal(max$w_max, max$acc_max, training_set, tab_W)
 
@@ -689,17 +689,17 @@ f              <- function(training_set, test_set, code_distance, nom_dataset, b
     tab_W <- (aux$tab_W)[-(n-i)]
   }
 
-  print("réslutats de l'heuristique  du max")
+  print("rÃ©slutats de l'heuristique  du max")
 
   mat_result  <- matrix(unlist(result), ncol = 2, byrow = TRUE)
   
 
   m <- maximun(mat_result)
 
-  r <- test_w(training_set, test_set, m$w_max, 1, 2, nom_dataset="")
+  #r <- test_w(training_set, test_set, m$w_max, 1, 2, nom_dataset="")
 
-  print(paste("Accuracy maximale pour le jeux de données ", nom_dataset, "est : ", r$acc, "le nombre de segments est : ", m$w_max))
-  print(paste( nom_dataset," Nombre de test dans la pire des cas: ", n))
+  #print(paste("Accuracy maximale pour le jeux de donnÃ©es ", nom_dataset, "est : ", r$acc, "le nombre de segments est : ", m$w_max))
+  #print(paste( nom_dataset," Nombre de test dans la pire des cas: ", n))
   #return(m)
 
 }
